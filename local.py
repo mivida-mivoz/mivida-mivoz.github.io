@@ -17,19 +17,19 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/about')
+@app.route('/about.html')
 def about():
     """Returns home"""
     return render_template('about.html')
 
 
-@app.route('/blog')
+@app.route('/blog.html')
 def blog():
     """Returns home"""
     return render_template('blog.html')
 
 
-@app.route('/press')
+@app.route('/press.html')
 def press():
     """Returns home"""
     return render_template('press.html')
